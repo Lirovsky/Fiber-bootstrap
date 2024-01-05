@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.bold {
+    font-weight: bold;
+}
+.color-bg {
+ background-color: #fbf8f3;
+}
+.btn {
+    border: 1px solid #cacaca;
+}
+/* SECTION 2*/
+#section-2 .rated, #section-2 .checks {
+    flex-direction: column;
+}
+#section-2 .check-1 p, #section-2 .check-2 p  {
+    padding: 15px 0 0 10px;
+}
+/* SECTION 3 */
+#section-3 h2 {
+    font-size: 2rem;
+}
+/* SECTION 4 */
+#section-4 .container {
+    border-radius: 10px;
+}
+/* SECTION 5 */
+#section-5 .card-header, #section-5 .card-footer  {
+    background-color: #fff;
+    border: none;
+}
+/* FOOTER*/
+#footer ul {
+    list-style: none;
+    margin-left: -30px;
+}
+#footer ul li{
+    padding-bottom: 5px;
+}
+#footer ul p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#footer ul a {
+    text-decoration: none;
+    color: #000;
+}
+#footer ul a:hover {
+    color: #3618f6;
+}
+
+@media (min-width: 576px) {
+    #section-2 .rated, #section-2 .checks {
+        flex-direction: row;
+    }
+}
